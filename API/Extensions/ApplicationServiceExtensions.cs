@@ -12,6 +12,7 @@ public static class ApplicationServiceExtensions
      IConfiguration config)
     {
         services.AddControllers();
+
         services.AddDbContext<DataContext>(opt =>
         {
             opt.UseSqlite(config.GetConnectionString("DefaultConnection"));
@@ -19,10 +20,10 @@ public static class ApplicationServiceExtensions
         services.AddCors();
 
         services.AddScoped<ITokenService, TokenService>();
-        services.AddScoped<IUserRepository, UserRepository>(); 
-        services.AddScoped<ILikeRepository, LikesRepository>(); 
+        services.AddScoped<IUserRepository, UserRepository>();
+        services.AddScoped<ILikeRepository, LikesRepository>();
         services.AddScoped<IMessageRepository, MessagesRepository>();
-        services.AddScoped<IPhotoService,PhotoService>();
+        services.AddScoped<IPhotoService, PhotoService>();
         services.AddScoped<LogUserActivity>();
         services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
         services.Configure<CloudinarySettings>(config.GetSection("CloudinarySettings"));

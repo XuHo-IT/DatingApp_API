@@ -267,6 +267,9 @@ D:\CSharp_Projects\DatingApp_API\API\bin\Debug\net8.0\AutoMapper.dll
 D:\CSharp_Projects\DatingApp_API\API\bin\Debug\net8.0\CloudinaryDotNet.dll
 D:\CSharp_Projects\DatingApp_API\API\bin\Debug\net8.0\Humanizer.dll
 D:\CSharp_Projects\DatingApp_API\API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\CSharp_Projects\DatingApp_API\API\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\CSharp_Projects\DatingApp_API\API\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\CSharp_Projects\DatingApp_API\API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\CSharp_Projects\DatingApp_API\API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\CSharp_Projects\DatingApp_API\API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 D:\CSharp_Projects\DatingApp_API\API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -278,7 +281,15 @@ D:\CSharp_Projects\DatingApp_API\API\bin\Debug\net8.0\Microsoft.EntityFrameworkC
 D:\CSharp_Projects\DatingApp_API\API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\CSharp_Projects\DatingApp_API\API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\CSharp_Projects\DatingApp_API\API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\CSharp_Projects\DatingApp_API\API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\CSharp_Projects\DatingApp_API\API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\CSharp_Projects\DatingApp_API\API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\CSharp_Projects\DatingApp_API\API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\CSharp_Projects\DatingApp_API\API\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\CSharp_Projects\DatingApp_API\API\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\CSharp_Projects\DatingApp_API\API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\CSharp_Projects\DatingApp_API\API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\CSharp_Projects\DatingApp_API\API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 D:\CSharp_Projects\DatingApp_API\API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
 D:\CSharp_Projects\DatingApp_API\API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
 D:\CSharp_Projects\DatingApp_API\API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
@@ -375,6 +386,7 @@ D:\CSharp_Projects\DatingApp_API\API\obj\Debug\net8.0\API.AssemblyInfoInputs.cac
 D:\CSharp_Projects\DatingApp_API\API\obj\Debug\net8.0\API.AssemblyInfo.cs
 D:\CSharp_Projects\DatingApp_API\API\obj\Debug\net8.0\API.csproj.CoreCompileInputs.cache
 D:\CSharp_Projects\DatingApp_API\API\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.cache
+D:\CSharp_Projects\DatingApp_API\API\obj\Debug\net8.0\API.sourcelink.json
 D:\CSharp_Projects\DatingApp_API\API\obj\Debug\net8.0\staticwebassets.build.json
 D:\CSharp_Projects\DatingApp_API\API\obj\Debug\net8.0\staticwebassets.development.json
 D:\CSharp_Projects\DatingApp_API\API\obj\Debug\net8.0\staticwebassets\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props
