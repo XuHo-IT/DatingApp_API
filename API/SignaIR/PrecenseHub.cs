@@ -1,12 +1,20 @@
-﻿using Microsoft.AspNetCore.SignalR;
+﻿using API.Extensions;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.SignalR;
 
 namespace API.SignaIR
 {
+    [Authorize]
     public class PrecenseHub : Hub
     {
-        public override Task OnConnectedAsync()
+        public override async Task OnConnectedAsync()
         {
-            return base.OnConnectedAsync();
+            await Clients.Others.SendAsync("UserIsOnline", Context.User?.GetUserName());
+        }
+        public override async Task OnDisconnectedAsync(Exception? exception)
+        {
+            await Clients.Others.SendAsync("UserIsOffline", Context.User?.GetUserName());
+            await base.OnDisconnectedAsync(exception);
         }
 
     }

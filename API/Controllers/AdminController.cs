@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using System.Data.Entity;
+using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
@@ -25,7 +25,7 @@ namespace API.Controllers
         }
 
         [Authorize(Policy = ("RequiredAdminRole"))]
-        [HttpGet("edit-role/{username}")]
+        [HttpPost("edit-role/{username}")]
         public async Task<ActionResult> EditRoles(string username, string roles)
         {
             if (string.IsNullOrEmpty(roles)) return BadRequest("You must select at least one role");
