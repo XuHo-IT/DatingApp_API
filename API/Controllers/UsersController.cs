@@ -13,7 +13,7 @@ namespace API.Controllers;
 public class UserController(IUserRepository userRepository, IMapper mapper,
     IPhotoService photoService) : BaseAPIController
 {
-    [Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Admin,Member")]
     [HttpGet]
     public async Task<ActionResult<IEnumerable<MemberDto>>> GetUsers([FromQuery] UserParams userParams)
     {
