@@ -90,7 +90,6 @@ public class MessagesRepository(DataContext context, IMapper mapper) : IMessageR
         if (unreadMessage.Count != 0)
         {
             unreadMessage.ForEach(x => x.DateRead = DateTime.UtcNow);
-            await context.SaveChangesAsync();
         }
         return messages;
     }
@@ -98,10 +97,5 @@ public class MessagesRepository(DataContext context, IMapper mapper) : IMessageR
     public void RemoveConnection(Connection connection)
     {
         context.Connections.Remove(connection);
-    }
-
-    public async Task<bool> SaveAllAsync()
-    {
-        return await context.SaveChangesAsync() > 0;
     }
 }
